@@ -1,26 +1,31 @@
 <h1 align="center">Fantasy Grounds Unity XML id tag Incrementer</h1>
 
 ## Description
-This app can take an xml input and change any <id> tags (and their closing tags) and change them to <id-0000x> iincrementing upwards. primarily for use with Fantasy Grounds Unity, but great if you find other uses for it and please let me know!
+This app can take an xml input and change any <id> tags (and their closing tags) into <id-0000x> incrementing upwards. primarily for use with Fantasy Grounds Unity, but great if you find other uses for it and please let me know!
   
 
 ## Table of Contents   
 * [Usage](#usage)
 * [Installation](#installation)
-* [Questions](#Questions)
+* [Contributors](#contributors)
+* [Questions](#questions)
 * [License](#license)
 
 
 ## Usage
 To use this app:
 
-Running "node change-tags.js" will run with default everything. The defaults for the input file is is "input.xml", and this file should be in the base folder. The default for output is "output.xml" and will be created in the output folder. Id increment default starts at 1 for "<id-00001></id-00001>". 
+Running "node change-tags.js" will run with default everything. The defaults for the input file is "input.xml", and this file should be in the root folder. The default for output is "output.xml" and will be created in the output folder. Id increment default starts at 1 for `<id-00001></id-00001>`. 
 
-You can pass up to three arguments into the command line as you run "node change-tags.js". The first argument is the name(or relative location and name) of the input file. The second is to change the name of the output file(it should still be placed into the output folder). The third is to start the count higher up, so "5" would change the first tag into "<id-00005></id-00005>".
+You can pass up to three arguments into the command line as you run "node change-tags.js". The first argument is the name(or relative location and name) of the input file. The second is to change the name of the output file(it should still be placed into the output folder). The third is to start the count higher, so "5" would change the first tag into `<id-00005></id-00005>`.
 
 So for example:
 "node change-tags.js myFile.xml myNewFile.xml 4"
-Would take in "myFile.xml" from the base folder, increment the id tags starting at "<id-00004>...", then write the new file as "myNewFile.xml" into the output folder.
+Would take in "myFile.xml" from the root folder, increment the id tags starting at `<id-00004>...`, then write the new file as "myNewFile.xml" into the output folder.
+
+Note: They have to be in that order. You can use only the input filename argument, or both input and output file names, but you can't just use output or use input and increment start. input - output - start. So:
+"node change-tags.js myFile.xml 4"
+Will take "4" as the output file name. Might change in the future. Also you can technically use a negative number for the increment start, but you get wierd results: `<id-0000-3></id-0000-3>`. Use as you see fit though I guess.
  
 ## Installation
 As you may have guessed in the usage section, you need node.js installed on your computer, see their site for information. It does not require any external modules, we just need access to node's built-in fs module.
