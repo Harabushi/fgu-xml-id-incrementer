@@ -32,7 +32,7 @@ As you may have guessed in the usage section, you need node.js installed on your
 
 ## Preview
 
-![Preview the program in action](./assets/id-incrementer-preview.mov)
+![Preview the program in action](./assets/id-incrementer-preview.gif)
 
 ## Contributors
 [Colby Harris](https://github.com/Harabushi)
