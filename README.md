@@ -30,6 +30,10 @@ Will take "4" as the output file name. Might change in the future. Also you can 
 ## Installation
 As you may have guessed in the usage section, you need node.js installed on your computer, see their site for information. It does not require any external modules, we just need access to node's built-in fs module.
 
+## Preview
+
+![Preview the program in action](./assets/id-incrementer-preview.mov)
+
 ## Contributors
 [Colby Harris](https://github.com/Harabushi)
 <br />
