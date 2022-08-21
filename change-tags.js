@@ -13,6 +13,12 @@ function num() {
 }
 
 function readWriteSync() {
+
+  if (isNaN(args[2])) {
+    console.log("arguments should be in order of input filename, output filename, increment start(num)");
+    return;
+  };
+
   // this should be the name of the input file, default to input.xml
   let data = fs.readFileSync(args[0] ? `${args[0]}` : 'input.xml', 'utf-8');
 

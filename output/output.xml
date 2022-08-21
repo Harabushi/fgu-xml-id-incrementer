@@ -1,0 +1,37 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id-00003>
+		<description type="formattedtext">
+			<p>is one of an assassin's ability to freeze a creature's bloodstream, where snow tends to the root's favor, ire, and her liberties inviolate; and we will that it be observed in good faith by our heirs forever that the freedom of elections, which is apparent from this that the freedom of elections, which is reckoned most important and very essential to the English Cnds to a slow and agonizing</p>
+		</description>
+		<name type="string">Example Plant</name>
+		<nonid_name type="string">Non ID Named Plant</nonid_name>
+		<nonidentified type="string">Notes</nonidentified>
+		<subtype type="string">Subtype Poison</subtype>
+		<type>Culinary, Medicinal, Magical</type>
+		<weight type="number">1</weight>
+	</id-00003>
+	<id-00004>
+		<description type="formattedtext">
+			<p>is one of an assassin's ability to freeze a creature's bloodstream, where snow tends to the root's favor, ire, and her liberties inviolate; and we will that it be observed in good faith by our heirs forever that the freedom of elections, which is apparent from this that the freedom of elections, which is reckoned most important and very essential to the English Cnds to a slow and agonizing</p>
+		</description>
+		<name type="string">Example Plant</name>
+		<nonid_name type="string">Non ID Named Plant</nonid_name>
+		<nonidentified type="string">Notes</nonidentified>
+		<subtype type="string">Subtype Poison</subtype>
+		<type>Culinary, Medicinal, Magical</type>
+		<weight type="number">1</weight>
+	</id-00004>
+	<id-00005>
+		<description type="appl">
+			<p>This was imported</p>
+		</description>
+		<name type="string">Example Apple</name>
+		<nonid_name type="string">Non ID Named Plant</nonid_name>
+		<nonidentified type="string">Notes</nonidentified>
+		<subtype type="string">Subtype Poison</subtype>
+		<type>Culinary, Medicinal, Magical</type>
+		<weight type="number">2</weight>
+	</id-00005>
+</item>
